@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+    <title>Gazoutx2's RNG</title>
+</head>
+<body>
+    <div>
+        <h1 style="line-height: 0.01cm; padding-top: 50%;">Random Number Generator</h1>
+        <h2 style="justify-items: center;">By Gazoutx2</h2>
+    </div>
+    <div>
+        <button class="button" id="Generate">Generate Number</button>
+        <h2>Maximum number</h2>
+        <input type="text" id="MaxNum" name="Maximum" required minlength="1" maxlength="10" size="12" value="10" />
+    </div>
+</body>
+
+<style>
+    body {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(40, 40, 40);
+        color: white;
+        font-family: 'Tahoma', sans-serif;
+    }
+
+    .button {
+        
+        border: 5px solid;
+        background-color: rgb(40, 40, 40);
+        color: rgb(17, 148, 230);
+        transition: border 500ms, color 500ms, background-color 500ms, border-radius 500ms;
+        font-size: 2.5rem;
+        font-family: 'Tahoma', sans-serif;
+        padding: 10px 15px;
+    }
+
+    .button:hover {
+        border: 10px solid;
+        background-color: rgb(17, 148, 230);
+        color: white;
+    }
+
+    input {
+        border: 5px solid;
+        color:rgb(17, 148, 230);
+        background-color: rgb(40, 40, 40);
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Tahoma', sans-serif;
+        transition: color 500ms, background-color 500ms;
+    }
+
+    input:hover {
+        color: white;
+        background-color: rgb(17, 148, 230);
+
+    }
+
+
+</style>
+<script src="Script.js"></script>
